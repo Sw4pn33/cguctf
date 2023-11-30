@@ -20,6 +20,9 @@ body {
     font-family: Hacked;
     transition:  ease 1.7s;
 }
+.sam{
+  font-family: Hacked;
+}
 .gre{
     color:darkgreen;
     
@@ -36,8 +39,7 @@ body {
     flex-direction: column;
     align-items: center;
    width: fit-content;
-  
-   font-family: Hacked;
+  font-family: Hacked;
     text-align: center;
 }
 
@@ -86,7 +88,6 @@ body {
         to { width: 100% }
       }
   }
-  /* Media query for 6.1 inches screen */
 @media (max-width: 720px) {
     @keyframes typing {
         from { width: 0 }
@@ -96,18 +97,15 @@ body {
       font-size: 14px;
     }
   }
-  /* Media query for 6.3 inches screen */
 @media (max-width: 768px) {
     body {
       font-size: 14px;
     }
-  
-    /* Add specific styles for smaller screens here */
   }
 
 @media (max-width: 6.1in) and (max-height: 2.64in) {
     body {
-      font-size: 14px;
+      font-size: 6px;
     }
   
     @keyframes typing {
@@ -116,19 +114,17 @@ body {
       }  }
 @media (max-width: 280px) and (max-height: 608px) {
     body {
-        font-size: 12px; /* Adjust the font size for narrow phones */
+        font-size: 12px;
     }
     
     .typewriter h1 {
             width: 100%;
     }
-    
-        /* Add specific styles for narrow phones here */
-    }
-/* Media query for screens with a pixel size of 280x653 */
+}
+/* Fold - Not sorted yet*/
 @media (max-width: 280px) and (max-height: 653px) {
     body {
-        font-size: 8px; /* Adjust the font size for screens with this pixel size */
+        font-size: 8px; 
     }
 
     .typewriter h1 {
